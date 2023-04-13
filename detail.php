@@ -6,11 +6,12 @@ $tab="";
 $week_day="";
 $result_day="";
 $result_conversion="";
+
 if (array_key_exists('add_two_numbers',$_POST)) {
     $title = "Addition de deux nombres";
     $tab=0;
 } elseif (array_key_exists('max_numbers',$_POST)) {
-    $title = "Le plus grand entre deux nombres";
+    $title = "Le plus Grand entre deux nombres";
     $tab=1;
 }elseif (array_key_exists('traduction',$_POST)) {
     $title = "Traduction des jours de la semaine";
